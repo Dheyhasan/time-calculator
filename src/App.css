@@ -13,15 +13,16 @@
   }
 }
 
+/* Modify .App-header to match your desired global styles */
 .App-header {
-  background-color: #282c34;
+  background-color: black;  /* Set background to black */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;  /* Ensure text remains white */
 }
 
 .App-link {

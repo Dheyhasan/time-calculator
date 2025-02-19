@@ -1,0 +1,6 @@
+/* App.module.css */
+
+.header {
+  @apply text-2xl font-bold text-center text-blue-600; /* Tailwind utility classes */
+}
+  

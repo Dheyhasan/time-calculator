@@ -1,0 +1,10 @@
+/* TimeCalculator.module.css */
+/* Remove all Tailwind-related classes and keep only custom styles */
+
+.container {
+  border-radius: 0.5rem; /* Custom rounded corners */
+}
+
+.custom-class {
+  /* You can define additional custom styles here if needed */
+}

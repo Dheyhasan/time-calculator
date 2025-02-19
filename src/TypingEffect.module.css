@@ -1,0 +1,25 @@
+/* Centered text styles for all lines */
+.text-center {
+  text-align: center;
+}
+
+/* Spacing and font adjustments for the third line */
+.max-w-2xl {
+  max-width: 32rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.sm\:mt-10 {
+  margin-top: 2.5rem;
+}
+
+.md\:mt-12 {
+  margin-top: 3rem;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
