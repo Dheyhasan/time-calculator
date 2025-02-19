@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Time AI - Time Calculation Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🕒 About the Project
+Time AI is a simple yet powerful web application designed to help users perform various time-related calculations efficiently. It provides features such as:
 
-## Available Scripts
+- **Age Calculator** – Find out how old you are in years, months, weeks, days, hours, and minutes.
+- **Add or Subtract Time** – Add or subtract specific time units (years, months, weeks, days, hours, minutes) from a given date.
+- **Time Between Calculator** – Calculate the exact duration between two dates and times.
 
-In the project directory, you can run:
+This project was built using **React.js** for the frontend and is fully responsive across all screen sizes.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
+- 🕰 **Age Calculation** in multiple formats (years, months, days, etc.).
+- ➕➖ **Add/Subtract Time** dynamically with an intuitive interface.
+- 📅 **Time Between Two Dates** with accurate results.
+- 📱 **Fully Responsive** – Works smoothly on desktop and mobile screens.
+- 🎨 **Sleek UI** – A clean, modern, and easy-to-use design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Date Management:** Date-FNS
+- **UI Enhancements:** React Datepicker, Custom CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
+```
+frontend/
+│── src/
+│   │── components/  # React components (Header, Footer, Calculator, etc.)
+│   │── pages/       # Page-level components
+│   │── assets/      # Static assets (images, icons, etc.)
+│   │── App.js       # Main application file
+│   │── index.js     # Entry point of the app
+│── public/         # Static public files
+│── package.json    # Dependencies and scripts
+│── README.md       # This file
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚡ Getting Started
+Follow these steps to set up and run the project on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+cd frontend
+```
 
-### `npm run eject`
+### **2️⃣ Install Dependencies**
+```sh
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **3️⃣ Start the Development Server**
+```sh
+npm start
+```
+This will launch the app at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📸 Screenshots (Optional)
+*(Include screenshots of your app if you have any)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve the project, feel free to fork the repo, create a new branch, and submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
+This project is **open-source** and available under the [MIT License](LICENSE).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**🚀 Enjoy using Time AI and make your time calculations easier!**
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
