@@ -65,10 +65,6 @@ This will launch the app at `http://localhost:3000`.
 
 ---
 
-## 📸 Screenshots (Optional)
-*(Include screenshots of your app if you have any)*
-
----
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve the project, feel free to fork the repo, create a new branch, and submit a pull request.
